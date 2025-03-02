@@ -5,8 +5,8 @@
 
 ---
 ## 과정 설명
-BasisIOTest - 기초적인 입출력 및 간단 산수
-TypeConversionTest - 형변환 등에 관련한 함수
-ConditionalStatementsTest - 조건 관리
-DictAndSetTest - set과 dict(set, map)
-LoopAndListTest - 간단한 반복문과 list
+- BasisIOTest - 기초적인 입출력 및 간단 산수
+- TypeConversionTest - 형변환 등에 관련한 함수
+- ConditionalStatementsTest - 조건 관리
+- DictAndSetTest - set과 dict(set, map)
+- LoopAndListTest - 간단한 반복문과 list
