@@ -32,6 +32,7 @@ cd 저장소명
 ### 2️⃣ 파일로 다운 받기
 #### Download
 [V1.0](https://github.com/kangdora/EduPy/archive/refs/tags/v1.0.zip)
+
 [v1.1](https://github.com/kangdora/EduPy/archive/refs/tags/v1.1.0.zip)
 
 ## 이용 방법
