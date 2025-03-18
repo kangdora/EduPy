@@ -31,8 +31,6 @@ cd 저장소명
 
 ### 2️⃣ 파일로 다운 받기
 #### Download
-[V1.0](https://github.com/kangdora/EduPy/archive/refs/tags/v1.0.zip)
-
 [v1.1](https://github.com/kangdora/EduPy/archive/refs/tags/v1.1.0.zip)
 
 ## 이용 방법
@@ -42,3 +40,5 @@ cd 저장소명
 - 각 `*.py` 에는 하나의 `class`가 존재하고, 그 안에는 여러 `unittest`메서드가 존재합니다.
 - 각 메서드에서 테스트를 실행하여 통과를 목표로 삼으시면 될 거 같습니다.
 
+### 지난 버전
+[V1.0](https://github.com/kangdora/EduPy/archive/refs/tags/v1.0.zip)
