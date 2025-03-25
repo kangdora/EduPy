@@ -31,7 +31,7 @@ cd 저장소명
 
 ### 2️⃣ 파일로 다운 받기
 #### Download
-[v1.1](https://github.com/kangdora/EduPy/archive/refs/tags/v1.1.0.zip)
+[v1.2](https://github.com/kangdora/EduPy/archive/refs/tags/v1.2.0.zip)
 
 ## 이용 방법
 - 각 디렉토리에 있는 학습 단원 안에는 `initial`과 `complete`가 있습니다.
@@ -41,4 +41,6 @@ cd 저장소명
 - 각 메서드에서 테스트를 실행하여 통과를 목표로 삼으시면 될 거 같습니다.
 
 ### 지난 버전
+[v1.1](https://github.com/kangdora/EduPy/archive/refs/tags/v1.1.0.zip)
+
 [V1.0](https://github.com/kangdora/EduPy/archive/refs/tags/v1.0.zip)
