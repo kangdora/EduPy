@@ -59,8 +59,8 @@ class ChessBoardRepaint(unittest.TestCase):
             list("WBBBBBBB")
         ]
 
-        repaint_w = 0  # 처음 문자가 W일때, W로 다시 칠해야 하는 개수
-        repaint_b = 0  # 처음 문자가 B일때, B로 다시 칠해야 하는 개수
+        repaint_w = 0  # 처음 문자가 W일때, 다시 칠해야 하는 개수
+        repaint_b = 0  # 처음 문자가 B일때, 다시 칠해야 하는 개수
         # TODO: repaint_w, repaint_b 의 해를 구하고 저장한 후, 둘 중 더 작은 값을 출력하세요.
 
         ########################################################################################
