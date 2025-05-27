@@ -33,9 +33,10 @@ class BruteForceBasics(unittest.TestCase):
 
         for a in range(10):
             for b in range(10):
-                # TODO: a와 b의 합을 results에 추가하고, 마지막에 results[rand]의 값을 출력하세요.
+                # TODO: a와 b의 합을 results에 추가하세요.
                 pass
 
+        # TODO: results의 rand번째 값을 출력하세요.
         self.assertEqual(len(results), 100)
         self.assertEqual(int(self.stdout.getvalue().strip()), results[rand])
 
@@ -45,9 +46,10 @@ class BruteForceBasics(unittest.TestCase):
         for a in range(1, 4):
             for b in range(1, 4):
                 for c in range(1, 4):
-                    # TODO: a * b * c 값을 results에 모두 저장하고, 언패킹 연산자를 통해, 띄어쓰기로 구분하여 출력하세요.
+                    # TODO: a * b * c 값을 results에 모두 저장하세요.
                     pass
 
+        # TODO: 언패킹 연산자를 통해, results를 띄어쓰기로 구분하여 출력하세요.
         self.assertIn(27, results)
         self.assertEqual(self.stdout.getvalue().strip(), " ".join(map(str, results)))
 
