@@ -48,6 +48,7 @@ class ChessBoardRepaint(unittest.TestCase):
 
     def test_패턴비교_함수(self):
         """ 🎨 8x8 보드와 체스 패턴 비교하여 다시 칠할 칸 수 구하기 """
+        # 체스보드판처럼, 백이 W, 흑이 B라고 가정하고, 한개의 보드에서는 흑백이 번갈아가며 나와야 합니다.
         board = [
             list("BWBWBWBW"),
             list("WBWBWBWB"),
