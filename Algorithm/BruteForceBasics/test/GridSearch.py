@@ -44,14 +44,14 @@ class GridSearch(unittest.TestCase):
         board = [
             [1, 2, 1, 2],
             [3, 4, 3, 4],
-            [1, 2, 1, 2],
+            [1, 2, 3, 2],
             [3, 4, 3, 4]
         ]
 
         max_sum = 0
         # TODO: 모든 2x2 구간을 탐색해, 각 구간의 합 중 최댓값을 출력하세요.
 
-        self.assertEqual(int(self.stdout.getvalue().strip()), 14)  # (3+4+3+4)
+        self.assertEqual(int(self.stdout.getvalue().strip()), 12)  # (3+4+3+2)
 
     def test_3x3_안에서_5이상_숫자_갯수(self):
         """ 🔢 시작 위치 (1, 2)에서 3x3 영역 내 5 이상인 숫자의 개수 구하기 """
