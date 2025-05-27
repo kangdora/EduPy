@@ -37,7 +37,7 @@ class GridSearch(unittest.TestCase):
         result = 0
         # TODO: 시작 위치부터 3x3 영역의 값을 모두 더한 결과를 출력하세요.
 
-        self.assertEqual(self.stdout.getvalue().strip(), 54)
+        self.assertEqual(int(self.stdout.getvalue().strip()), 54)
 
     def test_모든_2x2_영역_중_최댓값(self):
         """ 🟨 모든 2x2 부분보드 중 합이 가장 큰 값 구하기 """
@@ -51,7 +51,7 @@ class GridSearch(unittest.TestCase):
         max_sum = 0
         # TODO: 모든 2x2 구간을 탐색해, 각 구간의 합 중 최댓값을 출력하세요.
 
-        self.assertEqual(self.stdout.getvalue().strip(), 14)  # (3+4+3+4)
+        self.assertEqual(int(self.stdout.getvalue().strip()), 14)  # (3+4+3+4)
 
     def test_3x3_안에서_5이상_숫자_갯수(self):
         """ 🔢 시작 위치 (1, 2)에서 3x3 영역 내 5 이상인 숫자의 개수 구하기 """
@@ -68,7 +68,7 @@ class GridSearch(unittest.TestCase):
 
         # TODO: 3x3 영역 안에서 5 이상인 숫자의 개수를 출럭하세요.
 
-        self.assertEqual(self.stdout.getvalue().strip(), 6)
+        self.assertEqual(int(self.stdout.getvalue().strip()), 6)
 
     def test_문자_패턴_확인(self):
         """ ♟️ 2x2 영역이 모두 'W'로 채워진 경우가 있는지 확인 """
@@ -80,5 +80,5 @@ class GridSearch(unittest.TestCase):
 
         # TODO: 2x2 영역 중 모두 'W'로 채워진 곳이 있다면 1을 출력하고, 없다면 0을 출력하세요.
 
-        self.assertEqual(self.stdout.getvalue().strip(), 0)
+        self.assertEqual(int(self.stdout.getvalue().strip()), 0)
 
