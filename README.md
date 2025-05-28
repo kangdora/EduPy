@@ -6,8 +6,8 @@
 중요도와 과정은 제가 스스로 공부하면서 중요하다고 생각하던 부분들을 포함시키고, 점차 수정해 나가고 있습니다.
 
 ## 🛠️ 학습 방식
-기본적으로 이 프로젝트는 PyCharm을 기반으로 만들어졌습니다.
-따라서 이 학습에 PyCharm을 사용하시는 것을 추천드립니다.
+기본적으로 이 프로젝트는 [PyCharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)을 기반으로 만들어졌습니다.
+따라서 이 학습에 [PyCharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)을 사용하시는 것을 추천드립니다.
 - 각 디렉토리에는 Python 기초 개념을 익힐 수 있는 **학습 단원**이 포함되어 있습니다.
 - 학습 단원 안에는 과정을 설명하는 `course.md`가 있습니다.
 - `unittest` 기반으로 테스트를 실행하며, 학습자가 직접 `TODO` 부분을 채우면서 학습하는 방식입니다.
@@ -35,6 +35,7 @@ cd 저장소명
 [v2.0](https://github.com/kangdora/EduPy/archive/refs/tags/v2.0.0.zip)
 
 ## 이용 방법
+- readme.md를 읽으신 후, 원하는 학습단원부터 진행해나가시면 됩니다.
 - 각 디렉토리에 있는 학습 단원 안에는 `initial`과 `complete`가 있습니다.
 - `initial`의 설명을 보고, 모르는 것은 찾아보는 연습을 해보시는 것을 추천드립니다.
 - 웬만해서 다 하기 전까지는 최대한 `complete`를 참고하는 것을 지양하는 바입니다.
