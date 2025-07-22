@@ -32,7 +32,7 @@ cd 저장소명
 
 ### 2️⃣ 파일로 다운 받기
 #### Download
-[v2.0](https://github.com/kangdora/EduPy/archive/refs/tags/v2.0.0.zip)
+[v2.0](https://github.com/kangdora/EduPy/archive/refs/tags/v2.0.1.zip)
 
 ## 이용 방법
 - readme.md를 읽으신 후, 원하는 학습단원부터 진행해나가시면 됩니다.
