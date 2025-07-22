@@ -1,5 +1,6 @@
 import unittest
 from collections import deque
+from queue import Queue
 
 
 class StackQueueDequeTest(unittest.TestCase):
@@ -15,11 +16,11 @@ class StackQueueDequeTest(unittest.TestCase):
         self.assertEqual(stack, [1, 2])
 
     def test_queue(self):
-        queue = []
-        queue.append(1)
-        queue.append(2)
-        queue.append(3)
-        first = queue.pop(0)
+        queue = Queue()
+        queue.put(1)
+        queue.put(2)
+        queue.put(3)
+        first = queue.get()
         self.assertEqual(first, 1)
         self.assertEqual(queue, [2, 3])
 
