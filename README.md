@@ -34,6 +34,7 @@ cd 저장소명
 #### Download
 [v2.0](https://github.com/kangdora/EduPy/archive/refs/tags/v2.0.1.zip)
 
+
 ## 이용 방법
 - readme.md를 읽으신 후, 원하는 학습단원부터 진행해나가시면 됩니다.
 - 각 디렉토리에 있는 학습 단원 안에는 `initial`과 `complete`가 있습니다.
